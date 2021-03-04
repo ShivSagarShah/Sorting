@@ -21,10 +21,10 @@ int main()
     }
     cout << endl;
     //bubblesort
-    for (int i = 0; i <= n - 2; i++)
+    for (int i = 0; i < n - 1; i++)
     {
         // for(int j=0;j<=n-2;j++){
-        for (int j = 0; j <= n - 2 - i; j++)
+        for (int j = 0; j < n - 1 - i; j++)
         { //optimization
             if (arr[j] > arr[j + 1])
             {
