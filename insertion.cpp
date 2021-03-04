@@ -16,7 +16,7 @@ int main()
     }
     //insertion sort
 
-    for (i = 1; i <= n - 1; i++)
+    for (i = 1; i < n; i++)
     {
         int current = arr[i];
         for (j = i - 1; j >= 0 && arr[j] > current; j--)
