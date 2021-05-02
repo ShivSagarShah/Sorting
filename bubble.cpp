@@ -1,3 +1,4 @@
+// bubble sort mein bada number sabse peeche jaayega aur aise hi continue hote rahega........
 #include <iostream>
 // #include <climits>
 using namespace std;
