@@ -1,3 +1,4 @@
+//sabse chhota element sabse pehle aayega and then continues....
 #include <iostream>
 using namespace std;
 int main()
