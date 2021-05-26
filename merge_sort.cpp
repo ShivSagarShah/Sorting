@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-void mergesorttwoarrays(int *arr, int s, int e){ //jo resultant array ho vo sorted ho uske liye ye banaya
+void mergesorttwoarrays(int *arr, int s, int e){ //jo resultant array ho vo sorted ho uske liye ye banaya, to dono sorted array ko lekar ek complete sorted array banega
     int mid = (s+e)/2;
     int i = s;
     int j = mid+1;
@@ -30,8 +30,8 @@ void mergesort(int *arr, int s, int e){
     }
     int mid = (s+e)/2;
     mergesort(arr,s,mid); //baar baar array ko aadhe se todtey jao jab tak single element na bach jaaye
-    mergesort(arr,mid+1,e);
-    mergesorttwoarrays(arr,s,e); // phir array ko jodtey jao ki vo tutey hue array ab sorted hai
+    mergesort(arr,mid+1,e); //kyuki single element is always sorted
+    mergesorttwoarrays(arr,s,e); // phir array ko jodtey jao kyuki vo tutey hue array ab sorted hai
 
 }
 int main(){
